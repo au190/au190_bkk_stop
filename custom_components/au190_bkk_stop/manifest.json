@@ -1,0 +1,8 @@
+{
+  "domain": "au190_bkk_stop_1",
+  "name": "BKK Stop Information",
+  "documentation": "https://github.com/au190?tab=projects",
+  "dependencies": [],
+  "codeowners": ["@au190"],
+  "requirements": []
+}
