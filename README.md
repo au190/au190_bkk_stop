@@ -21,40 +21,40 @@ Visit [futar.bkk.hu](http://futar.bkk.hu) and select your stop, then copy the id
 
 ```
 #***********************************************************************
-#   https://futar.bkk.hu/route/BKK_0230
+#   https://futar.bkk.hu/route/
 #***********************************************************************
 sensor:
-  - platform: au190_bkk_stop
+  - platform: au190_bkk_stop_1
     name: '99_Home_City'
     stopId: 'BKK_F04097'
     wheelchair: false
     minsAfter: 20 
     ignoreNow: false
     
-  - platform: au190_bkk_stop
+  - platform: au190_bkk_stop_1
     name: '99_VajdaPéter_Home'
     stopId: 'BKK_F01260'
     
-  - platform: au190_bkk_stop
+  - platform: au190_bkk_stop_1
     name: '99_Tess_Home'
     stopId: 'BKK_F04171'
 
-  - platform: au190_bkk_stop
+  - platform: au190_bkk_stop_1
     name: '99_Blaha_Home'
     stopId: 'BKK_F01294'
     
-  - platform: au190_bkk_stop
+  - platform: au190_bkk_stop_1
     name: '23_Boráros_Home'
     stopId: 'BKK_008546'
 
-  - platform: au190_bkk_stop
+  - platform: au190_bkk_stop_1
     name: '23_Home_City'
     stopId: 'BKK_F04094'
     
 ```
 
 #### Example card:
-![bkk_stop example](/bkk_lovelace.png) 
+<img src='https://raw.githubusercontent.com/au190/au190_bkk_stop/master/bkk_lovelace.png'/>
 
 
 Updated server side
