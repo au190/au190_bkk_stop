@@ -32,7 +32,7 @@ sensor:
     ignoreNow: false
     
   - platform: au190_bkk_stop
-    name: '99_VajdaPÈter_Home'
+    name: '99_VajdaP√©ter_Home'
     stopId: 'BKK_F01260'
     
   - platform: au190_bkk_stop
@@ -44,7 +44,7 @@ sensor:
     stopId: 'BKK_F01294'
     
   - platform: au190_bkk_stop
-    name: '23_Bor·ros_Home'
+    name: '23_Bor√°ros_Home'
     stopId: 'BKK_008546'
 
   - platform: au190_bkk_stop
